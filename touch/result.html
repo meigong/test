@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta http-equiv="Cache-Control" content="no-cache" />
+
+<title>pp搜索</title>
+<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no;" >
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="tencent-x5-page-direction" content="landscape" />
+<meta name="keywords" content="pp搜索"/>
+<meta name="description" content=""/>
+
+<link rel="stylesheet" type="text/css" media="all" href="./css/base.css" />
+<script type='text/javascript' src='http://sou2.demo.shuqi.com/js/jquery-1.7.2.min.js'></script>
+<script type='text/javascript' src='./js/main.js'></script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript">
+
+</script>
+</head>
+<body>   
+
+    <div id="pager">
+        <div id="header"> 
+            <div class='headerTitle'>
+                <div class='home icon white radius4 button font12'>首页</div>
+                <div class='centerTitle'>搜索：斗破苍穹</div>
+            </div>
+            <div class='searchBg'>
+                <div class='search radius8'>
+                   <input class="sinput" type="text" id="keyword" name="keyword" onblur="if (this.value ==''){this.value='书名、作者名'}; "  onclick="if (this.value =='书名、作者名'){this.value=''}; " value='书名、作者名'/>
+                   <img class='searchPic' src='http://r3.11222.cn/resource/bookclub/image/55/17/2012121110401755.png'>
+                </div>
+            </div>
+        </div> 
+
+        <div id="content" class='clearfix'> 
+            <div id="NavTitle" class='clearfix'>
+                <ul>
+                    <li class='novel black selectedButton'>小说</li>
+                    <li class='author gray button2'>作者</li>
+                </ul>
+            </div>            
+            <!--搜索小说结果页-->
+            <div id='novelResult'>
+
+                    <div class='novelList'>
+                        <div class=''>《斗破苍穹》<span class='over'>完</span></div>
+                        <div class='comment gray'><img src='./imgs/star1.png'><img src='./imgs/star1.png'><img src='./imgs/star1.png'><img src='./imgs/star1.png'><img src='./imgs/star2.png'>(8.4分)45514人看过</div>
+                        <div class='info gray'>针对移动游戏开发者发布了一份
+                        </div>
+                    </div>
+                    <div class='line'></div>
+                    <div class='novelList'>
+                        <div class=''>《斗破苍穹》<span class='ing'>连</span></div>
+                        <div class='comment gray'><img src='./imgs/star1.png'><img src='./imgs/star1.png'><img src='./imgs/star1.png'><img src='./imgs/star1.png'><img src='./imgs/star2.png'>(8.4分)45514人看过</div>
+                        <div class='info gray'>针对移动游戏开发者发布了一份移动游戏交叉推广实战分析白皮书
+                        </div>
+                    </div>
+                    <div class='line'></div>
+                    <div class='novelList'>
+                        <div class=''>《斗破苍穹》<span class='over'>完</span></div>
+                        <div class='comment gray'><img src='./imgs/star1.png'><img src='./imgs/star1.png'><img src='./imgs/star1.png'><img src='./imgs/star1.png'><img src='./imgs/star2.png'>(8.4分)45514人看过</div>
+                        <div class='info gray'>针对移动游戏开发者发布了一份移动游戏交叉推广实战分析白皮书，主要介绍移动游戏如何运用交叉推广，对于手机游戏开发者来说是个不错的参考
+                        </div>
+                    </div>
+                    <div class='line'></div>                                        
+                     <div class='more'>点击加载更多</div>  
+            </div>   
+
+
+            <!--搜索结果作者页-->
+            <div id='authorResult'  style='display:none'>
+                    <div class='authorList'>
+                        <div class='authorName'>斗破苍穹的大师<span class='over'>完</span></div>
+                        <div class='book radius8'>12部作品
+                            <span name="down">▼</span>
+                            <span class="up" name="up">▲</span>
+                        </div>
+
+                    </div>
+                    <div class='listResult'>
+                       <p> 1.豆粕的大海</p>
+                        <p>2.豆粕的大海</p>
+                        <p>3.豆粕的大海</p>
+                        <p>4.豆粕的大海</p>
+                        <p>5.豆粕的大海</p>
+                    </div>                    
+                    <div class='line'></div>          
+                    <div class='authorList'>
+                        <div class='authorName'>斗破苍穹的大师<span class='over'>完</span></div>
+                        <div class='book radius8'>12部作品  
+                            <span name="down">▼</span>
+                            <span class="up" name="up">▲</span>
+                        </div>
+                    </div>
+                    <div class='listResult'>
+                       <p> 1.豆粕的大海</p>
+                        <p>2.豆粕的大海</p>
+                        <p>3.豆粕的大海</p>
+                        <p>4.豆粕的大海</p>
+                        <p>5.豆粕的大海</p>
+                    </div>                     
+                    <div class='line'></div>   
+
+
+                    <div class='authorList'>
+                        <div class='authorName'>斗破苍穹的大师<span class='over'>完</span></div>
+                        <div class='book radius8'>12部作品
+                            <span name="down">▼</span>
+                            <span class="up" name="up">▲</span>
+                        </div>
+                    </div>
+                    <div class='listResult'>
+                       <p> 1.豆粕的大海</p>
+                        <p>2.豆粕的大海</p>
+                        <p>3.豆粕的大海</p>
+                        <p>4.豆粕的大海</p>
+                        <p>5.豆粕的大海</p>
+                    </div>                     
+                    <div class='line'></div>   
+
+
+                    <div class='authorList'>
+                        <div class='authorName'>斗破苍穹的大师<span class='ing'>连</span></div>
+                        <div class='book radius8'>12部作品
+                            <span name="down">▼</span>
+                            <span class="up" name="up">▲</span>                            
+                        </div>
+                    </div>
+                    <div class='listResult'>
+                       <p> 1.豆粕的大海</p>
+                        <p>2.豆粕的大海</p>
+                        <p>3.豆粕的大海</p>
+                        <p>4.豆粕的大海</p>
+                        <p>5.豆粕的大海</p>
+                    </div>                     
+                    <div class='line'></div>
+
+                    
+                    <div class='more'>点击加载更多</div>                                                                      
+            </div>
+
+        </div> 
+           
+        <div id="footer"> 
+            <div class='toTop'>
+                Top▲
+            </div>
+            <div class='footerRight'>
+                <ul>
+                    <li></li>
+                    <li class='rightNow radius4'>触屏版</li>
+                    <li>WAP版</li>
+                    <li></li>
+                </ul>
+                <br/>
+                &copy;2012 shuqi.com
+            </div>
+            
+        </div> 
+
+    </div>
+       
+
+
+</body>
+</html>
